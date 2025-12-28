@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2025-12-28T17:23:54.509685" rpa="false" schemaversion="5">
+<suite id="s1" name="Webdriver" source="D:\softwareen\TestAutomationLab\webdriver.robot">
+<test id="s1-t1" name="UAT-Lab04-001: Open Workshop Registration Page - Open Website" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-28T17:23:54.906555" level="INFO">Opening browser 'Chrome' to base url 'http://127.0.0.1:5500/StarterFiles/Registration.html'.</msg>
+<arg>http://127.0.0.1:5500/StarterFiles/Registration.html</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-12-28T17:23:54.906398" elapsed="1.526425"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-12-28T17:23:56.456149" level="INFO">Current page contains text 'Workshop Registration'.</msg>
+<arg>Workshop Registration</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-12-28T17:23:56.434645" elapsed="0.021934"/>
+</kw>
+<status status="PASS" start="2025-12-28T17:23:54.905718" elapsed="1.551726"/>
+</test>
+<status status="PASS" start="2025-12-28T17:23:54.510713" elapsed="1.947833"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Webdriver" id="s1" pass="1" fail="0" skip="0">Webdriver</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
