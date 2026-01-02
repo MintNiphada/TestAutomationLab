@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${URL}    http://127.0.0.1:5500/StarterFiles/Registration.html
+${URL}    http://localhost:7272/Lab4/Registration.html
 
 *** Test Cases ***
 UAT-Lab04-001: Register Success No Organization Info
